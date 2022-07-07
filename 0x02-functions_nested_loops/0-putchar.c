@@ -1,22 +1,15 @@
-#include "putchar.h"
-
+#include <stdio.h>
 /**
- * main - Prints "putchar" followed by a new line.
+ * main - prints putchar with a new line, returns zero.
  *
- * Return: Always 0.
+ * Return: Always 0
  */
-int main(void)
+int maint(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('n');
-	_putchar('\n');
+	char ch = '_putchar';
+	
+	putchar(ch);
 
 	return (0);
 }
+		
