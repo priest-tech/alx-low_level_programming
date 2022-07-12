@@ -1,11 +1,14 @@
-#include "main.c"
-/***
- * mult - multiplies two integers.
- * @: character to check.
- * @b: character to chck.
- * Return: 0
+#include "main.h"
+
+/**
+ * mul - multiplies two integers
+ *@a: first integer
+ *@b: second integer
+ *
+ * Return: multiplication of a and b
  */
-int mul(int a, int b);
+
+int mul(int a, int b)
 {
 	return (a * b);
 }
