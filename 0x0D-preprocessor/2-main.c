@@ -1,6 +1,4 @@
-#ifndef MAIN_C
-#define MAIN_C
-
+#ifndef _FILE_
 #define _FILE_
 
 #endif
