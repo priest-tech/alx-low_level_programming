@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - define a new type
+ *
+ * return: 0
+ */
 
 typedef struct dog
 {
@@ -6,11 +11,4 @@ typedef struct dog
 	float age;
 	char *owner;
 } dog;
-int main() 
-{
-	dog my_dog;
 
-	my_dog.*name;
-	my_dog.age;
-	my_dog.*owner;
-}
