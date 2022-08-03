@@ -6,3 +6,11 @@ typedef struct dog
 	float age;
 	char *owner;
 } dog;
+int main() 
+{
+	dog my_dog;
+
+	my_dog.*name;
+	my_dog.age;
+	my_dog.*owner;
+}
