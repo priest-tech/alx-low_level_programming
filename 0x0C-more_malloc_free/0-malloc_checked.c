@@ -1,11 +1,8 @@
 #include "main.h"
-#include <stdlib>
-#include <stdio.h>
-#include <limits.h>
 /**
- * *malloc_checked - allocate memory
- *
- * Return: 98
+ * malloc_checked  - allocate memory
+ * @b: unsgined int memory to allocate
+ * Return: void pointer to malloc memory space
  */
 void *malloc_checked(unsigned int b);
 {
