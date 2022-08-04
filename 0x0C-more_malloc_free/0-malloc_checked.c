@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * malloc_checked - allocate memory using malloc.
